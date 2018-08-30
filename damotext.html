@@ -26,9 +26,16 @@
 
         var plan = results.getPlan(0);
         output += plan.getDistance(true);
+
         distance = plan.getDistance(true);
-        distance =  parseInt(distance)
-    }
+        var strlen = distance.length;
+        if (distance[strlen - 1] === "里")
+        {
+           var distance_num =  parseFloat(distance);
+            distance = distance_num*1000;
+        }
+        //distance =  parseFloat(distance)
+    };
 
         var transit = new BMap.DrivingRoute(map, {renderOptions: {map: map},
             onSearchComplete: searchComplete,
