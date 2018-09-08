@@ -30,7 +30,7 @@ function handleData (evt) {
             }
         }
 
-       // shortest_path(4, [5, 6, 8], 11); // test here
+        //shortest_path(4, [5, 6, 8], 11); // test here
     }
     reader.readAsText(file);
 }
@@ -102,6 +102,6 @@ function shortest_path(s, imd, t) {
 	}
 	final_path.push(t);
 	if (imd.length === 0) shortest_length = g[s][t];
-	//alert(final_path);
+	// alert(final_path);
 
 }
