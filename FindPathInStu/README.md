@@ -1,48 +1,5 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+校园路径最短路设计项目  
+>> 2018年9月8日20:28:34 
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
-
-### Current Version : v0.97.7
-
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
-
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
-
-## Changelog
-- v0.97.7 (July 23rd)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
-- v0.97.6 (April 1st)
-  - **Removed deprecated material icons from project**
-  - **Changed /font directory to /fonts**
-  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
-  - Responsive tables now work with empty cells
-  - Added focus states to checkboxes, switches, and radio buttons
-  - Sidenav and Modals no longer cause flicker with scrollbar
-  - Materialbox overflow and z-index issues fixed
-  - Added new option for Card actions within a Card reveal
-- v0.97.5 (Dec 21, 2015)
-  - Fixed Meteor package crash
-- v0.97.4 (Dec 20, 2015)
-  - Added Jasmine testing with Travis CI
-  - Select bugfixes
-  - Grid Offset bugfix
-  - Dropdown overflow bugfix
-  - Range slider error bugfix
-
-
-
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
-
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+index.html 为主页面点入使用   
+在页面打开文件选择 data.txt （路径距离信息）后即可使用
